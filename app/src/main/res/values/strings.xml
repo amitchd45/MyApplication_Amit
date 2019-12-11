@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application_Amit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note_for_kids">Keep The Kids Enterained</string>
+</resources>

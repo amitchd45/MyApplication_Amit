@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/space10"
+        android:layout_width="@dimen/space150"
+        android:layout_height="@dimen/space130">
+
+        <ImageView
+            android:id="@+id/iv_fragrance_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/view_pager_bg" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_fragrance_image"
+            android:background="@drawable/bottom_round_shap"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/space50">
+
+            <TextView
+                android:id="@+id/tv_fragrances_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/space10"
+                android:text="Man's Fragrances"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/space12" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/space20"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/view_pager_bg"
+                android:text="SHOP NOW"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text10" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
